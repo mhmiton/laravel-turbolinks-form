@@ -1,0 +1,39 @@
+{
+    "name": "mhmiton/laravel-turbolinks-form",
+    "description": "Laravel form submission with Turbolinks.",
+    "keywords": [
+        "laravel",
+        "laravel-turbolinks-form",
+        "laravel-turbolinks",
+        "turbolinks",
+        "turbolinks-form"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehediul Hassan Miton",
+            "email": "mhmiton.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "^5.5|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mhmiton\\LaravelTurbolinksForm\\LaravelTurbolinksFormServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mhmiton\\LaravelTurbolinksForm\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
